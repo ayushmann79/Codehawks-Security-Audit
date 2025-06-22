@@ -1,11 +1,7 @@
-<<<<<<< HEAD
 
 # PasswordStore
 
 <br/>
-<p align="center">
-<img src="./password-store-logo.png" width="400" alt="password-store">
-</p>
 <br/>
 
 A smart contract applicatoin for storing a password. Users should be able to store a password and then retrieve it later. Others should not be able to access the password. 
@@ -38,14 +34,6 @@ git clone https://github.com/Cyfrin/3-passwordstore-audit
 cd 3-passwordstore-audit
 forge build
 ```
-
-### Optional Gitpod
-
-If you can't or don't want to run and install locally, you can work with this repo in Gitpod. If you do this, you can skip the `clone this repo` part.
-
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#github.com/Cyfrin/3-passwordstore-audit)
-
-# Usage
 
 ## Deploy (local)
 
@@ -95,8 +83,7 @@ forge coverage --report debug
 ## Roles
 
 Owner: The user who can set the password and read the password.
--Outsides: No one else should be able to set or read the password.
-=======
-# Codehawks-Security-Audit
-🔐 A secure smart contract application for storing private passwords on-chain using Foundry. Includes deployment scripts, tests, and a sample audit report generation setup.
->>>>>>> 9f914fcff1d5ae20e91483de7cd9488cf1f40467
+Outsides: No one else should be able to set or read the password.
+
+ 
+ 
